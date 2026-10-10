@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Job Exposure Checker: How Much of Your Job Can AI Do? | AI Hope</title>
+<meta name="description" content="Free interactive AI job exposure checker. Pick your job or score your own working week to see which tasks AI can automate, which it assists and which stay human.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://webworksa1.github.io/Aihope-com/ai-job-checker.html">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271"
+     crossorigin="anonymous"></script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Hope">
+<meta property="og:title" content="AI Job Exposure Checker: How Much of Your Job Can AI Do?">
+<meta property="og:description" content="Free interactive AI job exposure checker. Pick your job or score your own working week to see which tasks AI can automate, which it assists and which stay human.">
+<meta property="og:url" content="https://webworksa1.github.io/Aihope-com/ai-job-checker.html">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#141938">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('aih-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How accurate is the AI job exposure score?", "acceptedAnswer": {"@type": "Answer", "text": "It is a structured estimate, not a measurement of your specific workplace. Two people with the same title can spend their weeks very differently, which is why the custom mode lets you enter your own hours. Use it to compare tasks and decide where to focus, not as a prediction."}}, {"@type": "Question", "name": "Why is my job's score different from other websites?", "acceptedAnswer": {"@type": "Answer", "text": "Sites use different data and definitions. Some estimate automation probability for a whole occupation; we score the share of working time exposed to current AI, task by task, and separate automation from augmentation. Different questions give different numbers."}}, {"@type": "Question", "name": "Will the scores change?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI capabilities move quickly, so we review task ratings regularly and date every update. Physical and relationship-based work changes more slowly than writing, analysis and admin."}}]}</script>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body data-prefix="">
+<a class="skip" href="#main">Skip to content</a>
+<div class="partner-bar"><div class="wrap"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership <span aria-hidden="true">→</span></a></div></div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="index.html" aria-label="AI Hope home"><img class="logo" src="assets/img/logo.svg" alt="" width="36" height="36"><span>AI<b>Hope</b></span></a>
+    <nav class="nav" id="nav" aria-label="Main"><a href="ai-job-checker.html" aria-current="page">Job Checker</a><a href="jobs.html">Jobs A–Z</a><a href="learn.html">Learn</a><a href="tools.html">AI Tools</a><a href="prompts.html">Prompts</a><a href="guides.html">Guides</a><a href="stories.html">Hope Stories</a><a href="contests.html">Challenge</a><a class="nav-support" href="support.html">Support</a></nav>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <a class="btn btn-sun btn-sm hide-sm" href="career-plan.html">Free AI career plan</a>
+      <button class="icon-btn menu-btn" type="button" aria-controls="nav" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<!--BODY-->
+<!--PAGE {"title": "AI Job Exposure Checker: How Much of Your Job Can AI Do?", "description": "Free interactive AI job exposure checker. Pick your job or score your own working week to see which tasks AI can automate, which it assists and which stay human.", "nav": "checker", "crumbs": [], "h1": "AI Job Exposure Checker"}-->
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Free interactive tool</span>
+    <h1>AI Job Exposure Checker</h1>
+    <p class="lede">How much of your work can AI already do? Pick your job, or score your own week hour by hour. You will see your exposure score, what to hand to AI and where your durable value is.</p>
+  </div>
+</section>
+<section class="wrap" style="padding-bottom:40px">
+  <div class="checker" id="checker">
+    <div class="form-card">
+      <div class="tabs" role="tablist" aria-label="Checker mode">
+        <button type="button" role="tab" data-tab="job" aria-selected="true">Pick my job</button>
+        <button type="button" role="tab" data-tab="custom" aria-selected="false" id="custom">Score my own week</button>
+      </div>
+      <div id="pane-job">
+        <div class="field"><label for="job-select">Your job</label><select id="job-select"></select></div>
+        <p class="small muted">Each job is broken into its five main tasks with a typical share of working time. Don't see your role? Switch to <b>Score my own week</b>.</p>
+      </div>
+      <div id="pane-custom" hidden>
+        <div class="field"><label for="custom-title">Job title (optional)</label><input id="custom-title" type="text" placeholder="e.g. Operations coordinator" maxlength="80"></div>
+        <p class="small muted">Roughly how many hours do you spend on each type of work in a normal week? <span class="sum-note">Total: <b id="hours-total">0</b> h</span></p>
+        <div id="sliders"></div>
+      </div>
+    </div>
+    <aside class="score-card result" id="result" aria-live="polite"></aside>
+  </div>
+</section>
+<div class="wrap"><div class="ad-slot" data-ad="in-article"></div></div>
+<section class="section section-soft">
+  <div class="wrap content-grid" style="padding-top:0">
+    <div class="prose">
+      <h2>How to read your result</h2>
+      <p>Your <strong>exposure score</strong> (0–100) is the share of your working time spent on tasks that current AI tools can perform or noticeably speed up, weighted by how capable AI is at each task. A score of 60 does not mean a 60% chance of losing your job. It means that a large part of your week could be done differently, and faster, with AI.</p>
+      <ul>
+        <li><strong>Under 25, low exposure:</strong> AI is a helpful sidekick. Your work is mostly physical, relational or judgment-based.</li>
+        <li><strong>25–44, moderate:</strong> AI will reshape parts of your week. Learning the tools gives you a clear edge.</li>
+        <li><strong>45–59, high:</strong> Many tasks can be done or accelerated by AI. Adapting now matters.</li>
+        <li><strong>60 and above, very high:</strong> Most routine tasks are within AI's reach. Reshape your role around the human parts, or plan a move.</li>
+      </ul>
+      <h2>Automation vs. augmentation</h2>
+      <p>The International Labour Organization's 2025 research found that most jobs are more likely to be <em>transformed</em> by generative AI than fully automated, because people still need to direct and check the work. We split your exposure the same way: <strong>automation</strong> is work AI can increasingly do on its own with light review, and <strong>augmentation</strong> is work where AI makes you faster but you still own the result.</p>
+      <h2>What to do with your score</h2>
+      <ol>
+        <li><strong>Hand over the most exposed tasks yourself.</strong> Use AI for them now, and measure the time you save. People who automate their own routine work are seen as part of the solution.</li>
+        <li><strong>Invest in your durable edge.</strong> Relationships, judgment, hands-on skill and domain expertise become more valuable as routine work gets cheaper.</li>
+        <li><strong>Get a plan.</strong> The <a href="career-plan.html">free AI career plan</a> turns your result into skills, courses and a 90-day roadmap.</li>
+      </ol>
+      <p class="small muted">Scores are AI Hope editorial estimates informed by ILO, IMF and WEF research and academic exposure studies. See the full <a href="methodology.html">methodology</a>.</p>
+      <h2>Frequently asked questions</h2>
+      <details class="faq"><summary>How accurate is the AI job exposure score?</summary><div><p>It is a structured estimate, not a measurement of your specific workplace. Two people with the same title can spend their weeks very differently, which is why the custom mode lets you enter your own hours. Use it to compare tasks and decide where to focus, not as a prediction.</p></div></details>
+      <details class="faq"><summary>Why is my job's score different from other websites?</summary><div><p>Sites use different data and definitions. Some estimate automation probability for a whole occupation; we score the share of working time exposed to current AI, task by task, and separate automation from augmentation. Different questions give different numbers.</p></div></details>
+      <details class="faq"><summary>Will the scores change?</summary><div><p>Yes. AI capabilities move quickly, so we review task ratings regularly and date every update. Physical and relationship-based work changes more slowly than writing, analysis and admin.</p></div></details>
+    </div>
+    <aside class="side">
+      <div class="card"><h3>Browse all jobs</h3><p class="small">38 occupation reports with task breakdowns, tools and safer adjacent careers.</p><a class="btn btn-ink btn-block" href="jobs.html">Jobs A–Z</a></div>
+      <div class="ad-slot" data-ad="sidebar"></div>
+    </aside>
+  </div>
+</section>
+<!--/BODY-->
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="" width="36" height="36"><span>AI<b>Hope</b></span></a>
+        <p>Future-proof your work in the age of AI. Free tools, honest guidance and practical skills for people whose work is changing because of AI.</p>
+        <form class="news-form" data-form="newsletter" data-subject="New newsletter subscriber" novalidate>
+          <label for="nf-email-ai-job-checker">Get the weekly AI Hope brief: one skill, one tool, one hopeful story.</label>
+          <div class="inline-field"><input id="nf-email-ai-job-checker" type="email" name="email" placeholder="you@example.com" required autocomplete="email"><button class="btn btn-sun" type="submit">Subscribe</button></div>
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="source" value="footer newsletter">
+          <p class="form-note">Free. Unsubscribe anytime. We never sell your email.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="footer-cols"><div><h3>Explore</h3><ul><li><a href="ai-job-checker.html">AI Job Exposure Checker</a></li><li><a href="jobs.html">Jobs A–Z</a></li><li><a href="tools.html">AI Tools Directory</a></li><li><a href="prompts.html">Prompt Library</a></li><li><a href="videos.html">Video Library</a></li></ul></div><div><h3>Learn</h3><ul><li><a href="learn.html">Learning Paths</a></li><li><a href="guides.html">Guides</a></li><li><a href="stories.html">Hope Stories</a></li><li><a href="methodology.html">Methodology</a></li></ul></div><div><h3>Get involved</h3><ul><li><a href="career-plan.html">Free AI Career Plan</a></li><li><a href="support.html">Support the Hope Fund</a></li><li><a href="contests.html">AI Hope Challenge</a></li><li><a href="careers.html">Careers & Volunteering</a></li><li><a href="advertise.html">Advertise & Partner</a></li></ul></div><div><h3>About</h3><ul><li><a href="about.html">About AI Hope</a></li><li><a href="editorial-policy.html">Editorial Policy</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="disclaimer.html">Disclaimer & Trademark</a></li></ul></div></div>
+    </div>
+    <div class="footer-bottom">
+      <p>AI Hope is an independent educational publication about AI and work. “AI Hope” is used as a descriptive name; we are not affiliated with, endorsed by or sponsored by any company, product, charity or organization with a similar name, or by any AI company or tool we mention. All trademarks belong to their owners. See our <a href="disclaimer.html">Disclaimer &amp; Trademark notice</a>.</p>
+      <p>Content is general information, not career, legal, financial or medical advice. Ads are served by Google AdSense; some links may be affiliate links. © <span data-year>2026</span> AiHope.com. Interested in this website, the domain, sponsorship, advertising or partnership? <a href="https://web.works/contact" target="_blank" rel="noopener">Contact us</a>.</p>
+    </div>
+  </div>
+</footer>
+<a class="sticky-cta" href="career-plan.html" data-sticky-cta>Get my free AI career plan <span aria-hidden="true">→</span></a>
+<div class="cookie" data-cookie hidden><p>We use cookies to serve ads (Google AdSense) and understand how the site is used. See our <a href="privacy.html">Privacy Policy</a>.</p><button class="btn btn-ink btn-sm" type="button" data-cookie-ok>OK</button></div>
+</body>
+</html>
