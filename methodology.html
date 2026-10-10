@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology: How AI Hope Calculates AI Job Exposure Scores</title>
+<meta name="description" content="How the AI Hope exposure score works: task shares, AI capability ratings, automation vs augmentation, sources, limitations and update schedule.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://webworksa1.github.io/Aihope-com/methodology.html">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271"
+     crossorigin="anonymous"></script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Hope">
+<meta property="og:title" content="Methodology: How AI Hope Calculates AI Job Exposure Scores">
+<meta property="og:description" content="How the AI Hope exposure score works: task shares, AI capability ratings, automation vs augmentation, sources, limitations and update schedule.">
+<meta property="og:url" content="https://webworksa1.github.io/Aihope-com/methodology.html">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#141938">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('aih-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body data-prefix="">
+<a class="skip" href="#main">Skip to content</a>
+<div class="partner-bar"><div class="wrap"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership <span aria-hidden="true">→</span></a></div></div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="index.html" aria-label="AI Hope home"><img class="logo" src="assets/img/logo.svg" alt="" width="36" height="36"><span>AI<b>Hope</b></span></a>
+    <nav class="nav" id="nav" aria-label="Main"><a href="ai-job-checker.html" aria-current="page">Job Checker</a><a href="jobs.html">Jobs A–Z</a><a href="learn.html">Learn</a><a href="tools.html">AI Tools</a><a href="prompts.html">Prompts</a><a href="guides.html">Guides</a><a href="stories.html">Hope Stories</a><a href="contests.html">Challenge</a><a class="nav-support" href="support.html">Support</a></nav>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <a class="btn btn-sun btn-sm hide-sm" href="career-plan.html">Free AI career plan</a>
+      <button class="icon-btn menu-btn" type="button" aria-controls="nav" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<!--BODY-->
+<!--PAGE {"title": "Methodology: How AI Hope Calculates AI Job Exposure Scores", "description": "How the AI Hope exposure score works: task shares, AI capability ratings, automation vs augmentation, sources, limitations and update schedule.", "nav": "checker", "h1": "How we calculate AI exposure scores"}-->
+<section class="page-hero"><div class="wrap"><span class="eyebrow">Methodology</span><h1>How we calculate AI exposure scores</h1><p class="lede">A transparent, task-based estimate of how much of a job's working time current AI can perform or speed up.</p></div></section>
+<section class="wrap content-grid">
+  <div class="prose">
+    <h2>1. Break the job into tasks</h2>
+    <p>For each occupation we list the five task groups that make up most of a typical working week, informed by public occupational descriptions (such as O*NET OnLine from the US Department of Labor) and practitioner input. Each task group gets a <strong>share of working time</strong>; the shares add up to 100%.</p>
+    <h2>2. Rate AI capability for each task</h2>
+    <p>Each task gets an <strong>AI exposure rating</strong> from 0 to 100, describing how much of that task today's widely available AI tools can perform or noticeably accelerate:</p>
+    <div class="table-wrap"><table class="table"><thead><tr><th>Rating</th><th>Meaning</th><th>Typical examples</th></tr></thead><tbody>
+      <tr><td>0–15</td><td>AI has little practical role</td><td>Physical work, hands-on care, live negotiation</td></tr>
+      <tr><td>16–40</td><td>AI supports parts of the task</td><td>Client advice, teaching, diagnosis, leadership</td></tr>
+      <tr><td>41–65</td><td>AI does much of the task with human direction</td><td>Analysis, research, design production, coding</td></tr>
+      <tr><td>66–100</td><td>AI can do most of the task with light review</td><td>Data entry, routine writing, transcription, scheduling</td></tr>
+    </tbody></table></div>
+    <h2>3. Calculate the score</h2>
+    <p>The exposure score is the time-weighted average of the task ratings:</p>
+    <blockquote><strong>Exposure score = Σ (task share × task rating) ÷ 100</strong></blockquote>
+    <p>For example, a job that spends 40% of its time on a task rated 80 and 60% on a task rated 10 scores (40×80 + 60×10) ÷ 100 = 38.</p>
+    <h2>4. Separate automation from augmentation</h2>
+    <p>Each task is also labeled <strong>“can automate”</strong> (AI can increasingly do it end-to-end with light review) or <strong>“assists”</strong> (AI helps, but a person still does and owns the work). The automation share is the part of the exposure score that comes from “can automate” tasks. This follows the distinction drawn in the International Labour Organization's 2025 research, which found most exposed jobs are more likely to be transformed than fully automated.</p>
+    <h2>5. Add the outlook</h2>
+    <p>Exposure is not the same as demand. Each job also carries an outlook label (growing, stable, shifting or declining) based mainly on the World Economic Forum's Future of Jobs Report 2025 and national labor statistics.</p>
+    <div class="ad-slot" data-ad="in-article"></div>
+    <h2>Score bands</h2>
+    <ul><li><strong>0–24:</strong> low exposure</li><li><strong>25–44:</strong> moderate exposure</li><li><strong>45–59:</strong> high exposure</li><li><strong>60–100:</strong> very high exposure</li></ul>
+    <h2>Limitations</h2>
+    <ul>
+      <li>Scores describe a <em>typical</em> version of a job. Your own mix of tasks may differ; use the <a href="ai-job-checker.html#custom">custom checker</a>.</li>
+      <li>Ratings reflect widely available AI tools, not experimental systems, and they will change as tools improve.</li>
+      <li>Exposure does not account for regulation, costs, employer choices or customer preferences, all of which affect how fast AI is adopted.</li>
+      <li>A score is not a probability of job loss.</li>
+    </ul>
+    <h2>Key sources</h2>
+    <ul>
+      <li>International Labour Organization (2025). <a href="https://www.ilo.org/node/706766" target="_blank" rel="noopener">Generative AI and Jobs: A Refined Global Index of Occupational Exposure</a>. Working Paper 140.</li>
+      <li>International Monetary Fund (2024). <a href="https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity" target="_blank" rel="noopener">AI will transform the global economy</a> and Staff Discussion Note SDN/2024/001.</li>
+      <li>World Economic Forum (2025). <a href="https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/" target="_blank" rel="noopener">Future of Jobs Report 2025</a>.</li>
+      <li>PwC (2025). <a href="https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html" target="_blank" rel="noopener">Global AI Jobs Barometer</a>.</li>
+      <li>US Department of Labor. <a href="https://www.onetonline.org" target="_blank" rel="noopener">O*NET OnLine</a> occupational descriptions.</li>
+    </ul>
+    <p class="small muted">Last reviewed: October 10, 2026. Next scheduled review: April 2027.</p>
+  </div>
+  <aside class="side"><div class="card"><h3>Try it</h3><p class="small">Score a job or your own week.</p><a class="btn btn-sun btn-block" href="ai-job-checker.html">Open the checker</a></div></aside>
+</section>
+<!--/BODY-->
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="" width="36" height="36"><span>AI<b>Hope</b></span></a>
+        <p>Future-proof your work in the age of AI. Free tools, honest guidance and practical skills for people whose work is changing because of AI.</p>
+        <form class="news-form" data-form="newsletter" data-subject="New newsletter subscriber" novalidate>
+          <label for="nf-email-methodology">Get the weekly AI Hope brief: one skill, one tool, one hopeful story.</label>
+          <div class="inline-field"><input id="nf-email-methodology" type="email" name="email" placeholder="you@example.com" required autocomplete="email"><button class="btn btn-sun" type="submit">Subscribe</button></div>
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="source" value="footer newsletter">
+          <p class="form-note">Free. Unsubscribe anytime. We never sell your email.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="footer-cols"><div><h3>Explore</h3><ul><li><a href="ai-job-checker.html">AI Job Exposure Checker</a></li><li><a href="jobs.html">Jobs A–Z</a></li><li><a href="tools.html">AI Tools Directory</a></li><li><a href="prompts.html">Prompt Library</a></li><li><a href="videos.html">Video Library</a></li></ul></div><div><h3>Learn</h3><ul><li><a href="learn.html">Learning Paths</a></li><li><a href="guides.html">Guides</a></li><li><a href="stories.html">Hope Stories</a></li><li><a href="methodology.html">Methodology</a></li></ul></div><div><h3>Get involved</h3><ul><li><a href="career-plan.html">Free AI Career Plan</a></li><li><a href="support.html">Support the Hope Fund</a></li><li><a href="contests.html">AI Hope Challenge</a></li><li><a href="careers.html">Careers & Volunteering</a></li><li><a href="advertise.html">Advertise & Partner</a></li></ul></div><div><h3>About</h3><ul><li><a href="about.html">About AI Hope</a></li><li><a href="editorial-policy.html">Editorial Policy</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="disclaimer.html">Disclaimer & Trademark</a></li></ul></div></div>
+    </div>
+    <div class="footer-bottom">
+      <p>AI Hope is an independent educational publication about AI and work. “AI Hope” is used as a descriptive name; we are not affiliated with, endorsed by or sponsored by any company, product, charity or organization with a similar name, or by any AI company or tool we mention. All trademarks belong to their owners. See our <a href="disclaimer.html">Disclaimer &amp; Trademark notice</a>.</p>
+      <p>Content is general information, not career, legal, financial or medical advice. Ads are served by Google AdSense; some links may be affiliate links. © <span data-year>2026</span> AiHope.com. Interested in this website, the domain, sponsorship, advertising or partnership? <a href="https://web.works/contact" target="_blank" rel="noopener">Contact us</a>.</p>
+    </div>
+  </div>
+</footer>
+<a class="sticky-cta" href="career-plan.html" data-sticky-cta>Get my free AI career plan <span aria-hidden="true">→</span></a>
+<div class="cookie" data-cookie hidden><p>We use cookies to serve ads (Google AdSense) and understand how the site is used. See our <a href="privacy.html">Privacy Policy</a>.</p><button class="btn btn-ink btn-sm" type="button" data-cookie-ok>OK</button></div>
+</body>
+</html>
