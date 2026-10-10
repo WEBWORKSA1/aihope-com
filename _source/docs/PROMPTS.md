@@ -8,7 +8,7 @@ These are the prompts used to build AiHope.com, in order. Each phase is self-con
 - Every page carries, at the very top, a bar reading “Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership” linking to https://web.works/contact.
 - Every page carries the AdSense code for publisher `ca-pub-6620975821265271` in `<head>`, plus `<meta name="google-adsense-account">`.
 - All forms deliver to one site inbox through FormSubmit's AJAX endpoint. The inbox address must never appear on any page, in the HTML source, in the README or in any published file in readable form. It is rebuilt in JavaScript from an encoded array only at submit time, and can be replaced by FormSubmit's random-string alias.
-- Use relative links everywhere so the site works both at `https://webworksa1.github.io/Aihope-com/` and at the custom domain.
+- Use relative links everywhere so the site works both at `https://webworksa1.github.io/aihope-com/` and at the custom domain.
 - Avoid any trademark conflict with the name “AI Hope”: use it descriptively, claim no rights in the words, and publish a trademark and copyright disclosure.
 
 ---

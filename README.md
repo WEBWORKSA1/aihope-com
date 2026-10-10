@@ -11,7 +11,7 @@ AiHope.com helps people see how AI affects their job and what to do about it. It
 
 It is monetized with Google AdSense, lead generation (consumer and B2B), sponsorships, the Hope Fund (donations), the AI Hope Challenge contest and a talent and volunteer hub.
 
-**Live:** https://webworksa1.github.io/Aihope-com/ (GitHub Pages, free plan)
+**Live:** https://webworksa1.github.io/aihope-com/ (GitHub Pages, free plan)
 
 ## Project layout
 
