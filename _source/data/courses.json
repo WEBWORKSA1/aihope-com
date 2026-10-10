@@ -1,0 +1,14 @@
+[
+{"name":"Elements of AI","by":"University of Helsinki and MinnaLearn","url":"https://www.elementsofai.com/","price":"Free","level":"Beginner","path":"start","note":"No coding or maths needed. The best first course for anyone."},
+{"name":"AI Fluency: Framework & Foundations","by":"Anthropic","url":"https://anthropic.skilljar.com/ai-fluency-framework-foundations","price":"Free","level":"Beginner","path":"start","note":"How to work with AI effectively, critically and responsibly."},
+{"name":"IBM SkillsBuild AI courses","by":"IBM","url":"https://skillsbuild.org/","price":"Free","level":"Beginner","path":"start","note":"Short courses with digital credentials you can add to your resume."},
+{"name":"Generative AI for Beginners (21 lessons)","by":"Microsoft","url":"https://github.com/microsoft/generative-ai-for-beginners","price":"Free","level":"Beginner","path":"work","note":"Hands-on lessons; some labs use paid API calls."},
+{"name":"Introduction to generative AI (learning path)","by":"Microsoft Learn","url":"https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/","price":"Free","level":"Beginner","path":"work","note":"Self-paced modules on generative AI concepts and Azure tools."},
+{"name":"DeepLearning.AI Short Courses","by":"DeepLearning.AI","url":"https://www.deeplearning.ai/short-courses/","price":"Free videos","level":"Beginner to intermediate","path":"work","note":"One-hour courses on prompting, agents and AI apps. Certificates need a paid plan."},
+{"name":"Google AI Essentials","by":"Google (on Coursera)","url":"https://grow.google/ai-essentials/","price":"Paid","level":"Beginner","path":"work","note":"Five short modules with a certificate. Coursera subscription after a free trial."},
+{"name":"Kaggle Learn","by":"Kaggle / Google","url":"https://www.kaggle.com/learn","price":"Free","level":"Beginner to intermediate","path":"build","note":"Bite-size, browser-based lessons in Python, machine learning and SQL."},
+{"name":"Machine Learning Crash Course","by":"Google","url":"https://developers.google.com/machine-learning/crash-course","price":"Free","level":"Beginner to intermediate","path":"build","note":"Classic introduction to machine learning with exercises."},
+{"name":"CS50's Introduction to AI with Python","by":"Harvard University","url":"https://cs50.harvard.edu/ai/","price":"Free","level":"Intermediate","path":"build","note":"University-grade course; certificate optional and paid."},
+{"name":"Practical Deep Learning for Coders","by":"fast.ai","url":"https://course.fast.ai/","price":"Free","level":"Intermediate","path":"build","note":"Top-down, practical deep learning. About a year of Python helps."},
+{"name":"Hugging Face LLM Course","by":"Hugging Face","url":"https://huggingface.co/learn/llm-course/chapter1/1","price":"Free","level":"Intermediate to advanced","path":"build","note":"Free and ad-free course on transformers and language models."}
+]
