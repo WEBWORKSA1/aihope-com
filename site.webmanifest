@@ -1,0 +1,15 @@
+{
+  "name": "AI Hope",
+  "short_name": "AI Hope",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFBF5",
+  "theme_color": "#141938",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_source/
+
+Sitemap: https://webworksa1.github.io/Aihope-com/sitemap.xml
